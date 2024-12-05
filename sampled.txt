@@ -1,0 +1,79 @@
+Data successfully loaded from data/sampled_data.csv.
+DataFrame Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7500 entries, 0 to 7499
+Data columns (total 26 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   alarmid               7500 non-null   int64  
+ 1   userid                7500 non-null   int64  
+ 2   DeviceType            7500 non-null   int64  
+ 3   devices               7500 non-null   object 
+ 4   Response              7500 non-null   int64  
+ 5   latitude              7500 non-null   float64
+ 6   longitude             7500 non-null   float64
+ 7   alarmlocaltime        7500 non-null   object 
+ 8   Latitude_x            7500 non-null   float64
+ 9   Longitude_x           7500 non-null   float64
+ 10  AlarmStatus           7500 non-null   int64  
+ 11  DateOfBirth           7500 non-null   object 
+ 12  Latitude_y            7480 non-null   float64
+ 13  Longitude_y           7480 non-null   float64
+ 14  WorkLatitude          7500 non-null   object 
+ 15  WorkLongitude         7500 non-null   object 
+ 16  FromHour              7500 non-null   float64
+ 17  FromMin               7500 non-null   float64
+ 18  ToHour                7500 non-null   float64
+ 19  ToMin                 7500 non-null   float64
+ 20  AvailableWeekDay      7500 non-null   float64
+ 21  AvailabilityLocation  7500 non-null   float64
+ 22  CreatedDate           7480 non-null   object 
+ 23  alarmlocaltime_year   7500 non-null   int64  
+ 24  alarmlocaltime_month  7500 non-null   int64  
+ 25  alarmlocaltime_day    7500 non-null   int64  
+dtypes: float64(12), int64(8), object(6)
+memory usage: 1.5+ MB
+None
+First 5 rows of the DataFrame:
+   alarmid               userid  DeviceType devices  Response   latitude  \
+0    71135   -43046965303985123           0     App         0  52.191235   
+1    69199  2461588321794931671           0     App         0  52.365368   
+2    84307  7233580007123251296           0     App         0  52.746689   
+3    44619 -4183063865334114250           4     Sms         0  51.751053   
+4    80944 -5543083286062164828           0     App         0  50.864712   
+
+   longitude           alarmlocaltime  Latitude_x  Longitude_x  ...  FromHour  \
+0   6.905455  2023-02-08 17:26:39.333   52.195694     6.896947  ... -0.360719   
+1   4.853975  2022-12-23 11:17:26.360   52.362448     4.857253  ...  2.081725   
+2   5.065581  2024-02-24 15:03:44.600   52.747531     5.067214  ... -0.360719   
+3   5.266428  2021-02-14 17:10:24.520   51.750519     5.261850  ... -0.360719   
+4   5.831041  2023-12-02 07:16:49.387   50.867397     5.833197  ... -0.360719   
+
+    FromMin    ToHour     ToMin AvailableWeekDay AvailabilityLocation  \
+0 -0.127003 -2.283653 -1.743488         1.505155             1.161217   
+1 -0.127003  0.362067 -1.743488         1.003298            -0.861165   
+2 -0.127003  0.482327  0.585447        -1.505984             1.161217   
+3 -0.127003  0.482327  0.585447        -0.000415             1.161217   
+4 -0.127003  0.482327  0.585447         1.003298             1.161217   
+
+               CreatedDate  alarmlocaltime_year  alarmlocaltime_month  \
+0  2022-01-10 13:42:17.323                 2023                     2   
+1  2024-07-19 14:03:53.067                 2022                    12   
+2  2021-04-29 20:17:29.170                 2024                     2   
+3  2021-01-19 05:26:12.200                 2021                     2   
+4  2023-10-11 15:00:04.763                 2023                    12   
+
+   alarmlocaltime_day  
+0                   8  
+1                  23  
+2                  24  
+3                  14  
+4                   2  
+
+[5 rows x 26 columns]
+Missing Values in DataFrame:
+Latitude_y     20
+Longitude_y    20
+CreatedDate    20
+dtype: int64
+Number of duplicate rows: 0

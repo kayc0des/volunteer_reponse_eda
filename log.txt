@@ -1,0 +1,50 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7480 entries, 0 to 7479
+Data columns (total 43 columns):
+ #   Column                       Non-Null Count  Dtype  
+---  ------                       --------------  -----  
+ 0   Response                     7480 non-null   int64  
+ 1   latitude                     7480 non-null   float64
+ 2   longitude                    7480 non-null   float64
+ 3   Latitude_x                   7480 non-null   float64
+ 4   Longitude_x                  7480 non-null   float64
+ 5   Latitude_y                   7480 non-null   float64
+ 6   Longitude_y                  7480 non-null   float64
+ 7   WorkLatitude                 3972 non-null   float64
+ 8   WorkLongitude                3905 non-null   float64
+ 9   FromHour                     7480 non-null   float64
+ 10  FromMin                      7480 non-null   float64
+ 11  ToHour                       7480 non-null   float64
+ 12  ToMin                        7480 non-null   float64
+ 13  AvailableWeekDay             7480 non-null   float64
+ 14  AvailabilityLocation         7480 non-null   float64
+ 15  DeviceType_0                 7480 non-null   bool   
+ 16  DeviceType_3                 7480 non-null   bool   
+ 17  DeviceType_4                 7480 non-null   bool   
+ 18  devices_App                  7480 non-null   bool   
+ 19  devices_App Pager            7480 non-null   bool   
+ 20  devices_App Pager Sms        7480 non-null   bool   
+ 21  devices_App Sms              7480 non-null   bool   
+ 22  devices_App Sms              7480 non-null   bool   
+ 23  devices_App Sms Pager        7480 non-null   bool   
+ 24  devices_App Sms Sms          7480 non-null   bool   
+ 25  devices_Pager App            7480 non-null   bool   
+ 26  devices_Pager App Sms        7480 non-null   bool   
+ 27  devices_Pager Sms            7480 non-null   bool   
+ 28  devices_Pager Sms App        7480 non-null   bool   
+ 29  devices_Sms                  7480 non-null   bool   
+ 30  devices_Sms App              7480 non-null   bool   
+ 31  devices_Sms Pager            7480 non-null   bool   
+ 32  devices_Sms Pager App        7480 non-null   bool   
+ 33  devices_Sms Pager Sms Pager  7480 non-null   bool   
+ 34  devices_Sms Sms              7480 non-null   bool   
+ 35  devices_Sms Sms App          7480 non-null   bool   
+ 36  devices_Unknown              7480 non-null   bool   
+ 37  AlarmStatus_1                7480 non-null   bool   
+ 38  AlarmStatus_3                7480 non-null   bool   
+ 39  period_of_day_Afternoon      7480 non-null   bool   
+ 40  period_of_day_Evening        7480 non-null   bool   
+ 41  period_of_day_Morning        7480 non-null   bool   
+ 42  period_of_day_Night          7480 non-null   bool   
+dtypes: bool(28), float64(14), int64(1)
+memory usage: 1.1 MB
